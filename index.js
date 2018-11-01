@@ -13,11 +13,7 @@ const app = express();
 app.use(
   cookiesSession({
     maxAge: 30 * 24 * 60 * 60 * 1000,
-<<<<<<< HEAD
     keys: [keys.cookieKey]
-=======
-    keys: [keys.cookieKeys]
->>>>>>> e502aaaa06f4e09a8507e00c27e34e88bc1902f6
   })
 );
 app.use(passport.initialize());
