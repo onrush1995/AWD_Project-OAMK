@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const cookiesSession = require("cookie-session");
 const passport = require("passport");
 const keys = require("./config/keys");
-require("./models/user");
+require("./models/User");
 require("./services/passport");
 
 mongoose.connect(keys.mongoURI);
