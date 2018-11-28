@@ -8,13 +8,22 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
+<<<<<<< HEAD
     "dev": "concurrently \"npm run server \" \"npm run client\""
+=======
+    "dev": "concurrently \"npm run server \" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+>>>>>>> 140d2e38d5456d1fcd8bc6d348c4fb1b017e4bce
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "balanced-match": "^1.0.0",
     "body-parser": "^1.18.3",
+<<<<<<< HEAD
+=======
+    "bower": "^1.8.4",
+>>>>>>> 140d2e38d5456d1fcd8bc6d348c4fb1b017e4bce
     "concurrently": "^4.0.1",
     "cookie-session": "^2.0.0-beta.3",
     "express": "4.16.4",
@@ -25,6 +34,10 @@
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
     "path": "^0.12.7",
+<<<<<<< HEAD
+=======
+    "postinstall": "^0.4.2",
+>>>>>>> 140d2e38d5456d1fcd8bc6d348c4fb1b017e4bce
     "react-router-dom": "^4.3.1",
     "stripe": "^6.15.0"
   },
