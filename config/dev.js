@@ -4,9 +4,9 @@ module.exports = {
     "620534927884-nh69444f882pp84pvsg16n5r8up1pido.apps.googleusercontent.com",
   googleClientSecret: "ozEU87x0n-dKf7aYkYuYuqeE",
   mongoURI: "mongodb://Monir:M12345@ds247223.mlab.com:47223/emaily-dev",
-  cookieKey: "jddhjfheiuf5tujkjchfjd5srueeijks967fyjdfh",
+  cookieKey: "HRYEYRJBR6BY635jhdhfyetrebhgy5464gfg",
   stripePublishableKey: "pk_test_u0zA3OlVE7LypKKn8M2NvDiu",
   stripeSecretKey: "sk_test_curTzRlfn5UL162aCmmW9HHh",
   sendGridKey:
-    "SG.yrfTp226TaO3nWVdEpDZUw.tLRllk_ - Xm3L_aD0sCJe050F7Eie_OPNqwBjm9ejC6k"
+    "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"
 };
