@@ -12,7 +12,7 @@ class Header extends Component {
       case false:
         return (
           <li>
-            <a href="/auth/google">Sign In With Google</a>
+            <a href="/auth/google">Sign in with Google</a>
           </li>
         );
 
@@ -38,7 +38,7 @@ class Header extends Component {
             to={this.props.user ? "/surveys" : "/"}
             className="left brand-logo"
           >
-            Surveryfy
+            SURVEY APP
           </Link>
           <ul className="right">{this.renderContent()}</ul>
         </div>
